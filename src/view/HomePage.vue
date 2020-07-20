@@ -25,15 +25,15 @@
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-          <img class="img-responsive" src="@/assets/img/img1.png" alt="大数据管理系统">
+          <img class="img-responsive" src="@/assets/ximg/222.png" alt="PDCA循环">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
-            大数据管理系统
-            <small>/ Big Data Management System</small>
+            PDCA循环
+            <small>/ PDCA Cycle</small>
           </h2>
-          <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
-          <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          <p>PDCA循环是美国质量管理专家休哈特博士首先提出的，由戴明采纳、宣传，获得普及，所以又称戴明环。全面质量管理的思想基础和方法依据就是PDCA循环</p>
+          <p>PDCA循环的四个阶段，“策划—实施—检查—改进”的PDCA循环的管理模式，体现着科学认识论的一种具体管理手段和一套科学的工作程序。PDCA管理模式的应用对我们提高日常工作的效率有很大的益处，它不仅在质量管理工作中可以运用，同样也适合于其他各项管理工作。</p>
           <h2 class="bigData-device">PC/PAD/Phone &nbsp; 全设备支持</h2>
           <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
         </div>
@@ -50,16 +50,18 @@
           onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
         >联系我们</button>
         <div class="contactUs-contactWay">
-          <span></span>
-          <span></span>
-          <span></span>
+          <div>
+            <img src="../assets/ximg/电话.png" style="width: 3.8rem;display: inline-block">
+            <p style="display: inline-block;font-size: 2.8rem;vertical-align: bottom;margin: 0">17370000889</p>
+            <p style="display: inline-block">(姜经理)</p>
+          </div>
         </div>
       </div>
     </div>
     <!-- 客户评价 -->
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
-        <p class="customer-title text-center">客户评价</p>
+        <p class="customer-title text-center">合作企业</p>
         <div class="swiper-container customer-swiper hidden-xs">
           <div class="swiper-wrapper">
             <div
@@ -143,27 +145,27 @@ export default {
     return {
       swiperList: [
         {
-          img: require("@/assets/img/banner1.png"),
-          path: "",
-          title: '您身边的IT专家1',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '您身边的IT专家2',
+          title: '多安科技',
+          content: '以技术创新为医院管理信息化产业服务',
+        },
+        {
+          img: require("@/assets/ximg/timg1.png"),
+          path: "",
+          title: 'PDCA',
+          content: 'PDCA循环就是按照这样的顺序进行质量管理，并且循环不止地进行下去的科学程序',
+        },
+        {
+          img: require("@/assets/ximg/bj4.png"),
+          path: "",
+          title: '以诚为本,以信为根',
           content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
         },
         {
-          img: require("@/assets/img/banner1.png"),
+          img: require("@/assets/ximg/bj3.png"),
           path: "",
-          title: '您身边的IT专家3',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner2.jpg"),
-          path: "",
-          title: '您身边的IT专家4',
+          title: '专注医疗系统',
           content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
         }
       ],
@@ -255,24 +257,24 @@ export default {
       ],
       serverList: [
         {
-          logo: require("@/assets/img/tel.png"),
-          title: "核心优势1",
-          content: "<p>由专业客服提供人工服务</p>负责疑难问题和故障受理"
+          logo: require("@/assets/ximg/评价_评审.png"),
+          title: "等级评审系统",
+          content: "<p>让医务人员从繁杂的等级评审<p>工作中解放出来，提高医院的<p>工作效率"
         },
         {
-          logo: require("@/assets/img/computer.png"),
-          title: "核心优势2",
-          content: "<p>利用远程视频工具，提供协助</p>帮助客户进行调试、解决故障"
+          logo: require("@/assets/ximg/管理.png"),
+          title: "不良事件管理系统",
+          content: "<p>有效帮助医院加强质量控制，<p>减少不良事件发生，优化医院<p>管理"
         },
         {
-          logo: require("@/assets/img/qq.png"),
-          title: "核心优势3",
-          content: "<p>利用企业QQ提供在线解答</p>帮助企业快速准确解决问题和故障"
+          logo: require("@/assets/ximg/质控.png"),
+          title: "质控督查系统",
+          content: "<p>帮助医院丢弃传统管理模式，<p>步入医院标准化、精细化、系<p>统化科学管理"
         },
         {
-          logo: require("@/assets/img/skill.png"),
-          title: "核心优势4",
-          content: "<p>由技术支持工程师，负责问题解答</p>需求受理及故障受理"
+          logo: require("@/assets/ximg/服务.png"),
+          title: "医院定制化服务",
+          content: "<p>具有专业及强大的医疗、质控<p>开发平台，能更高效医务质量<p>提升的定制化需求"
         }
       ]
     };
@@ -412,24 +414,21 @@ export default {
   height: 50px;
   margin-top: 40px;
 }
-#contactUs .contactUs-container .contactUs-contactWay span {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  margin: 30px;
+#contactUs .contactUs-container .contactUs-contactWay div{
+  margin-top: 5%;
 }
-#contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(1) {
-  background: url("../assets/img/weixin.png") 0 0 no-repeat;
-  background-size: 100% 100%;
-}
-#contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(2) {
-  background: url("../assets/img/weibo.png") 0 0 no-repeat;
-  background-size: 100% 100%;
-}
-#contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(3) {
-  background: url("../assets/img/twitter.png") 0 0 no-repeat;
-  background-size: 100% 100%;
-}
+/*#contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(1) {*/
+/*  background: url("../assets/img/weixin.png") 0 0 no-repeat;*/
+/*  background-size: 100% 100%;*/
+/*}*/
+/*#contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(2) {*/
+/*  background: url("../assets/img/weibo.png") 0 0 no-repeat;*/
+/*  background-size: 100% 100%;*/
+/*}*/
+/*#contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(3) {*/
+/*  background: url("../assets/img/twitter.png") 0 0 no-repeat;*/
+/*  background-size: 100% 100%;*/
+/*}*/
 
 /* 客户评价 */
 #customer {
@@ -526,11 +525,8 @@ export default {
     height: 30px;
     margin-top: 20px;
   }
-  #contactUs .contactUs-container .contactUs-contactWay span {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    margin: 10px;
+  #contactUs .contactUs-container .contactUs-contactWay div {
+    margin-top: 1%;
   }
   #customer {
     padding: 30px 0;
@@ -612,11 +608,8 @@ export default {
     height: 50px;
     margin-top: 30px;
   }
-  #contactUs .contactUs-container .contactUs-contactWay span {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin: 15px;
+  #contactUs .contactUs-container .contactUs-contactWay div {
+    margin-top: 2%;
   }
   #customer .customer-title {
     font-size: 24px;

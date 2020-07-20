@@ -1,19 +1,19 @@
 <template>
   <div id="footer" class="container-fluid">
     <div class="logo">
-      <img src="@/assets/img/logo_white.png" alt="logo图">
+      <img src="@/assets/ximg/logob.png" alt="logo图">
     </div>
-    <p class="title">公司企业网站模板</p>
+    <p class="title">多安科技</p>
     <p class="address_tel_fax">
-      <span>地址：公司地址公司地址公司地址公司地址</span>
-      <span>Tel：888-888-888</span>
-      <span>Fax：8888-88888888</span>
+      <span>地址：江西省南昌市青云谱区世纪欧美中心A栋1006</span>
+      <span>姜经理：17370000889</span>
+      <span>刘经理：17370095889</span>
     </p>
     <p class="email_wx">
       <span>邮箱：liyunkun_11@163.com</span>
-      <span>公司微信号：ilyk_gg</span>
+      <span>公司微信公众号DuoanSoft</span>
     </p>
-    <p class="copy">Copyright &copy; 2018 - 2019 公司名称公司名称</p>
+    <p class="copy">Copyright &copy; 2018 - 2019 多安科技</p>
   </div>
 </template>
 <script>
@@ -34,9 +34,12 @@ export default {
   text-align: center;
 }
 .logo {
-  width: 95px;
+  width: 147px;
   height: 45px;
   margin: 50px auto 20px;
+}
+.logo img{
+  height: 45px;
 }
 .title {
   font-size: 25px;
